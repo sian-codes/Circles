@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "alex",
+      "email": "alex@example.com"
+    },
+    {
+      "id": 2,
+      "username": "sam",
+      "email": "sam@example.com"
+    },
+    {
+      "id": 3,
+      "username": "jules",
+      "email": "jules@example.com"
+    }
+  ],
+  "circles": [
+    {
+      "id": 1,
+      "name": "Design Guild",
+      "description": "UI/UX critique and inspiration",
+      "visibility": "public"
+    },
+    {
+      "id": 2,
+      "name": "Builders",
+      "description": "Shipping weekly, talking stack",
+      "visibility": "public"
+    }
+  ],
+  "threads": [
+    {
+      "id": 1,
+      "circle_id": 1,
+      "title": "UI-critique-0814"
+    },
+    {
+      "id": 2,
+      "circle_id": 1,
+      "title": "Palette explorations"
+    },
+    {
+      "id": 3,
+      "circle_id": 2,
+      "title": "Kotlin vs Python for services"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "thread_id": 1,
+      "author_id": 1,
+      "content": "Kicking off the critique thread!"
+    },
+    {
+      "id": 2,
+      "thread_id": 1,
+      "author_id": 2,
+      "content": "Love the blush palette."
+    },
+    {
+      "id": 3,
+      "thread_id": 2,
+      "author_id": 3,
+      "content": "Trying softer accent tones."
+    },
+    {
+      "id": 4,
+      "thread_id": 3,
+      "author_id": 2,
+      "content": "Python API + Kotlin clients?"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "circle_id": 1,
+      "author_id": 1,
+      "content": "Drafting the components list."
+    },
+    {
+      "id": 2,
+      "circle_id": 1,
+      "author_id": 2,
+      "content": "Posted some moodboards."
+    },
+    {
+      "id": 3,
+      "circle_id": 2,
+      "author_id": 3,
+      "content": "Kicking off weekly ship log."
+    }
+  ]
+}
